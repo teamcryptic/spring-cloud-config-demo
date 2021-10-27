@@ -8,7 +8,7 @@
 		<version>2.3.10.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mphasis</groupId>
+	<groupId>com.poc</groupId>
 	<artifactId>productShoppingService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>productShoppingService</name>

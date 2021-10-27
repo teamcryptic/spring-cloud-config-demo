@@ -1,4 +1,4 @@
-package com.mphasis;
+package com.poc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -7,8 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.Environment;
 
-import com.mphasis.domain.Product;
-import com.mphasis.repository.ProductRepository;
+import com.poc.domain.Product;
+import com.poc.repository.ProductRepository;
 
 @SpringBootApplication
 public class ProductShoppingServiceApplication implements CommandLineRunner{

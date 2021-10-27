@@ -1,4 +1,4 @@
-package com.mphasis.Controller;
+package com.poc.Controller;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mphasis.domain.Product;
-import com.mphasis.service.ProductService;
+import com.poc.domain.Product;
+import com.poc.service.ProductService;
 
 @RestController(value = "productController")
 @Scope("request")

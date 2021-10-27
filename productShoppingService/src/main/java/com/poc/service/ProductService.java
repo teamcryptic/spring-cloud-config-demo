@@ -1,12 +1,12 @@
-package com.mphasis.service;
+package com.poc.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mphasis.domain.Product;
-import com.mphasis.repository.ProductRepository;
+import com.poc.domain.Product;
+import com.poc.repository.ProductRepository;
 
 @Service(value = "productService")
 public class ProductService {
