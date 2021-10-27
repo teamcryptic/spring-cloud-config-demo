@@ -1,4 +1,4 @@
-package com.mphasis.domain;
+package com.poc.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
